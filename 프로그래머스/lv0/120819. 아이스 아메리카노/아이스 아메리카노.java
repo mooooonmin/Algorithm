@@ -1,12 +1,7 @@
 class Solution {
     public int[] solution(int money) {
-        
-        int cup = money / 5500;
-        int change = money % 5500;
-        
-        int[] answer = {cup, change};
 
-        
+        int[] answer = { money/5500, money%5500 };
         return answer;
     }
 }
