@@ -7,6 +7,7 @@ class Solution {
             
             answer[i] = num;
             num += x;
+
         }
         return answer;
     }
