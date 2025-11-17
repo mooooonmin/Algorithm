@@ -1,14 +1,21 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class Main{
-    public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
+	
+	public static void main(String args[]){
+		
+		Scanner sc = new Scanner(System.in);
+		int a, b;
+		a = sc.nextInt();
+		b = sc.nextInt();
         
-        int A = sc.nextInt();
-        int B = sc.nextInt();
-        
-        if(A>B) System.out.println(">");
-        else if(A<B) System.out.println("<");
-        else System.out.println("==");
-    }
+        if (a > b) {
+            System.out.println(">");
+        } else if (a < b) {
+            System.out.println("<");
+        } else if (a == b) {
+            System.out.println("==");
+        }
+	}
+	
 }
